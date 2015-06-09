@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="ro.sapientia.mesteri2015.SCRUMTitleTest" time="287.23" errors="1" skipped="4">
+<testsuite tests="37" failures="0" name="ro.sapientia.mesteri2015.SCRUMTest" time="32.013" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="D:\Boti\collage\soft-engineering\4\testing\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8752480472444525855.tmp"/>
+    <property name="classworlds.conf" value="D:\Boti\collage\soft-engineering\4\testing\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf965552078760253821.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft Network Monitor 3\;C:\programming\apache-maven-3.3.3\bin;C:\Program Files\MongoDB\Server\3.0\bin;.;;C:\programming\eclipse-ee;;.;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,50 +61,39 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Add invalid acceptance criteria" name="Given I have a story added AND I go to the story View page" time="51.126">
-    <skipped/>
-    <system-out>
-
-You can implement missing steps with the snippets below:
-
-@Given(&quot;^I have a story added AND I go to the story View page$&quot;)
-public void I_have_a_story_added_AND_I_go_to_the_story_View_page() throws Throwable {
-    // Express the Regexp above with the code you wish you had
-    throw new PendingException();
-}
-
-@When(&quot;^I add an acceptance criteria with \&quot;([^\&quot;]*)\&quot; and an \&quot;([^\&quot;]*)\&quot;$&quot;)
-public void I_add_an_acceptance_criteria_with_and_an(String arg1, String arg2) throws Throwable {
-    // Express the Regexp above with the code you wish you had
-    throw new PendingException();
-}
-
-@Then(&quot;^it should fail with a validation error$&quot;)
-public void it_should_fail_with_a_validation_error() throws Throwable {
-    // Express the Regexp above with the code you wish you had
-    throw new PendingException();
-}
-
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: Add invalid acceptance criteria" name="When I add an acceptance criteria with &quot;title1&quot; and an &quot;invalid criteria&quot;" time="51.127">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Add invalid acceptance criteria" name="Then it should fail with a validation error" time="51.127">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Add invalid acceptance criteria" name="Scenario: Add invalid acceptance criteria" time="62.461">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Add invalid acceptance criteria" name="Scenario: Add invalid acceptance criteria" time="62.461"/>
+  <testcase classname="Scenario: Add invalid acceptance criteria" name="Given I have a story added" time="0.007"/>
+  <testcase classname="Scenario: Add invalid acceptance criteria" name="And I go to the story View page" time="0"/>
+  <testcase classname="Scenario: Add invalid acceptance criteria" name="When I add an acceptance criteria with &quot;title1&quot; and with &quot;an invalid criteria&quot;" time="0"/>
+  <testcase classname="Scenario: Add invalid acceptance criteria" name="Then it should fail with a validation error" time="0"/>
+  <testcase classname="Scenario: Add invalid acceptance criteria" name="Scenario: Add invalid acceptance criteria" time="2.604"/>
+  <testcase classname="Scenario: Add acceptance criteria" name="Given I have a story added" time="0"/>
+  <testcase classname="Scenario: Add acceptance criteria" name="And I go to the story View page" time="0"/>
+  <testcase classname="Scenario: Add acceptance criteria" name="When I add an acceptance criteria with &quot;title1&quot; and with &quot;Feature: test&quot;" time="0"/>
+  <testcase classname="Scenario: Add acceptance criteria" name="Then it should show the criteria titled &quot;title1&quot; successfully" time="0"/>
+  <testcase classname="Scenario: Add acceptance criteria" name="Scenario: Add acceptance criteria" time="11.176"/>
+  <testcase classname="Scenario: Update criteria" name="Given I have a story added" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="And I go to the story View page" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="And the story has a criteria and I view it" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="When I delete the acceptance criteria" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="Then it should return to the story" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="And it should be one criteria missing" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="Scenario: Update criteria" time="2.421"/>
+  <testcase classname="Scenario: Update criteria" name="Given I have a story added" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="And I go to the story View page" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="And the story has a criteria and I view it" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="When I update the acceptance criteria with &quot;title2&quot; and with &quot;Feature: updated criteria&quot;" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="Then it should show the criteria titled &quot;title2&quot; successfully" time="0"/>
+  <testcase classname="Scenario: Update criteria" name="Scenario: Update criteria" time="2.239"/>
+  <testcase classname="Scenario: View acceptance criteria" name="Given I have a story added" time="0"/>
+  <testcase classname="Scenario: View acceptance criteria" name="And I go to the story View page" time="0"/>
+  <testcase classname="Scenario: View acceptance criteria" name="When I add an acceptance criteria with &quot;title1&quot; and with" time="0"/>
+  <testcase classname="Scenario: View acceptance criteria" name="Then it should highlight the keywords" time="0"/>
+  <testcase classname="Scenario: View acceptance criteria" name="And indent rows in the criteria" time="0"/>
+  <testcase classname="Scenario: View acceptance criteria" name="Scenario: View acceptance criteria" time="2.2"/>
   <testcase classname="Scenario: UpdateFirst" name="Given I edit the scrum list&apos;s first story" time="0"/>
   <testcase classname="Scenario: UpdateFirst" name="When I enter &quot;updatefirstnew&quot; in  the title textbox and I push the update button" time="0"/>
   <testcase classname="Scenario: UpdateFirst" name="Then I should get result &quot;updatefirstnew&quot; in new stories list" time="0"/>
-  <testcase classname="Scenario: UpdateFirst" name="Scenario: UpdateFirst" time="1.938"/>
-  <testcase classname="Scenario: Title1" name="Given I open the scrum tool add page" time="0"/>
-  <testcase classname="Scenario: Title1" name="When I enter &quot;title1&quot; in  the title textbox and I push the add button" time="0"/>
-  <testcase classname="Scenario: Title1" name="Then I should get result &quot;title1&quot; in stories list" time="0"/>
-  <testcase classname="Scenario: Title1" name="Scenario: Title1" time="6.99">
+  <testcase classname="Scenario: UpdateFirst" name="Scenario: UpdateFirst" time="5.9">
     <error message="Error communicating with the remote browser. It may have died.
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
 System info: host: &apos;dell-PC&apos;, ip: &apos;192.168.1.32&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
@@ -115,7 +104,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
 	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:468)
-	at ro.sapientia.mesteri2015.test.SCRUMTitleStepDefinition.closeBrowser(SCRUMTitleStepDefinition.java:63)
+	at ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.closeBrowser(SCRUMSprintUpdateStepDefinition.java:67)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -159,7 +148,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7057 [/127.0.0.1] failed: Connection refused: connect
 	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
 	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
@@ -191,4 +180,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	... 61 more
 </error>
   </testcase>
+  <testcase classname="Scenario: Title1" name="Given I open the scrum tool add page" time="0"/>
+  <testcase classname="Scenario: Title1" name="When I enter &quot;title1&quot; in  the title textbox and I push the add button" time="0"/>
+  <testcase classname="Scenario: Title1" name="Then I should get result &quot;title1&quot; in stories list" time="0"/>
+  <testcase classname="Scenario: Title1" name="Scenario: Title1" time="5.466"/>
 </testsuite>
