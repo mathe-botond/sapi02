@@ -14,10 +14,10 @@ Feature: Viewing acceptance criteria
 				Then it should result in some test result
 			"""
 		Then it should highlight the keywords
-				| Feature   |
-			    | Scenario  |
-			    | Given 	| 
-			    | When 		| 
-			    | Then 		| 
-			    | And 		|
+				| Featur	|
+			    	| Scenario  	|
+			    	| Given 	| 
+			    	| When 		| 
+			    	| Then 		| 
+			    	| And 		|
 		And indent rows in the criteria    
